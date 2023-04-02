@@ -4,12 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Personal CV</title>
+
+    <!-- CSS Link -->
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Bootstrap link -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&family=Ubuntu&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <a href="Web Development/TinDog-Start-master/index.html">tin-dog website</a>
-    <a href="pers website/index.html">personal webpage</a>
-    <a href="CSS - My style/index.html">second personal webpage</a>
+
+    <section id="title">
+
+        <h1>My CV</h1>
+        <p class="titlebar">This webpage shows projects I've made</p>
+
+    </section>
+
     
+    <section id="cards">
+
+    <div class="row row-cols-1 row-cols-md-3 g-6">
+        
+        <div class="col pr-column columnstyle">
+            <div class="card">
+                <img src="sources/firstpic.png" class="card-img-top" alt="preview image">
+                <div class="card-body">
+                    <h5 class="card-title">First Personal Web-page</h5>
+                    <p class="card-text">Made only with HTML</p><br>
+                    <a href="pers website/index.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Take a look</a>
+                 </div>
+            </div>
+        </div>
+        
+        <div class="col pr-column columnstyle">
+            <div class="card">
+                <img src="sources/secondpic.png" class="card-img-top" alt="preview image">
+                <div class="card-body">
+                    <h5 class="card-title">Second Personal Web-page</h5>
+                    <p class="card-text">Made with HTML + CSS</p><br>
+                    <a href="CSS - My style/index.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Take a look</a><br>
+                 </div>
+            </div>
+        </div>
+
+        <div class="col pr-column columnstyle">
+            <div class="card">
+                <img src="sources/thirdpic.png" class="card-img-top" alt="preview image">
+                <div class="card-body">
+                    <h5 class="card-title">Tindog Website</h5>
+                    <p class="card-text">Made with Bootstrap 5.3.0</p><br>
+                    <a href="Web Development/TinDog-Start-master/index.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Take a look</a><br>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+    <!-- JS link -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+
+
 </body>
 </html>
